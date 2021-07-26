@@ -1,0 +1,86 @@
+/* link colors */
+.link-yellow {
+  color: rgb(253 171 55);
+}
+.link-yellow:hover {
+  color: rgb(253 171 55);
+}
+
+.link-red {
+  color: #f8828a;
+}
+.link-red:hover {
+  color: #f8828a;
+}
+
+.link-green {
+  color: #7dddbf;
+}
+.link-green:hover {
+  color: #7dddbf;
+}
+
+.link-blue {
+  color: #5e92f3;
+}
+.link-blue:hover {
+  color: #5e92f3;
+}
+
+.shadow-custom {
+  box-shadow: 0 0.4rem 2rem #efefef !important;
+}
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: none !important;
+  border-radius: 0.5rem;
+}
+.card-body {
+  flex: 1 1 auto;
+  padding: 2rem 2rem;
+}
+.icon-svg.icon-svg-md {
+  width: 2.6rem;
+  height: 2.6rem;
+}
+
+.text-yellow .svg-fill {
+  fill: #fcd49b;
+}
+.text-red .svg-fill {
+  fill: #eea1a6;
+}
+.text-green .svg-fill {
+  fill: #a6d8c8;
+}
+.text-blue .svg-fill {
+  fill: #8caeec;
+}
+.more {
+  text-decoration: none;
+}
+.more:after {
+  font-family: Custom;
+  content: "";
+  padding-left: 0.3rem;
+  font-size: 0.35rem;
+  font-weight: 400;
+  vertical-align: 0.05rem;
+  letter-spacing: -0.01rem;
+}
+
+.bg-dot {
+  background-size: 0.75rem 0.75rem;
+}
+.shape.rellax {
+  position: absolute;
+}
+.bg-dot.primary {
+  background-image: radial-gradient(#fab758 2px, transparent 2.5px);
+}

@@ -1,0 +1,74 @@
+/* root css  */
+:root {
+  --bs-blue: #3f78e0;
+  --bs-purple: #747ed1;
+  --bs-violet: #a07cc5;
+  --bs-pink: #d16b86;
+  --bs-red: #e2626b;
+  --bs-orange: #f78b77;
+  --bs-yellow: #fab758;
+  --bs-green: #6bbea3;
+  --bs-leaf: #7cb798;
+  --bs-aqua: #54a8c7;
+  --bs-navy: #343f52;
+  --bs-ash: #9499a3;
+  --bs-white: #fff;
+  --bs-light: #fefefe;
+  --bs-gray: #f6f7f9;
+  --bs-dark: #262b32;
+  --bs-primary: #3f78e0;
+  --bs-secondary: #aab0bc;
+  --bs-success: #6bbea3;
+  --bs-info: #54a8c7;
+  --bs-warning: #fab758;
+  --bs-danger: #e2626b;
+  --bs-font-sans-serif: "Manrope", sans-serif;
+  --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas,
+    "Liberation Mono", "Courier New", monospace;
+  --bs-gradient: linear-gradient(to right, #fab758, #f78b77, #e2626b);
+}
+
+.hero-content-wrappper {
+  background: linear-gradient(180deg, #fab7586e, transparent);
+}
+.hero {
+  height: 100vh;
+  background: var(--bs-gradient);
+}
+.main-btn:hover {
+  box-shadow: 0px 5px 8px 1px #dadada;
+  transform: translateY(-1px);
+  transition: 0.5s;
+}
+.main-btn {
+  background: linear-gradient(#fab758, #fab758b5);
+  color: white !important;
+}
+
+/* seo section */
+.gradient {
+  background: linear-gradient(
+    0deg,
+    #fff8ef,
+    rgba(255, 255, 255, 0) 100%
+  ) !important;
+}
+
+/* strategy */
+.btn-circle {
+  background: #f9ba5f36 !important;
+  color: orange !important;
+  border-radius: 50% !important;
+  width: 63px;
+  height: 59px;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+}
+
+/* chose */
+.accordion-button:not(.collapsed) {
+  color: #403f56 !important;
+  background-color: #fde5e078 !important;
+  box-shadow: none !important;
+}
